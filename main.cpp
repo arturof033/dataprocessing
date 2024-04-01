@@ -288,16 +288,12 @@ string readFileIntoString(const string& path) {
 
 //START OF printProcessedInput
 /**
- * This function prints the 
+ * This function prints the code in the file given by the user
  * 
- * Long description
  * 
- * @param  value1:  description
- * @param  value2:  description
+ * @param  input: string to be printed
  * 
- * @return description
  */
-// prints tokens found within the file given by the user
 void printProcessedInput(const string& input) {
     cout << "Processed file content:\n" << input << endl;
 }
